@@ -1,3 +1,2 @@
-# RH15D_WSSP.github.io
-WSSP: Optically thick forward modeling with RH1.5D
-This is an introductory course on numerical radiative transfer using RH1.5D code.
+# Introduction and setting up
+This document is a very basic guide to setting up the RH1.5D code.
