@@ -1,2 +1,4 @@
 # Introduction and setting up
-This document is a very basic guide to setting up the RH1.5D code.
+This document is a brief guide to using the famous Rybicki-Hummer (RH) code during WSSP 2023. We will use the open-source [1.5D](https://github.com/ITA-Solar/rh) code version, which is a massively-parallel radiative transfer code for spectral synthesis in stellar atmospheres. This code was developed by Tiago Pereira and Han Uitenbroek in [2015](https://ui.adsabs.harvard.edu/abs/2015A%26A...574A...3P/abstract) and it also contains a detailed [online documentation](https://rh15d.readthedocs.io/en/latest/index.html). This is a modified version of the original code developed by Han Uitenbroek in [2001](https://ui.adsabs.harvard.edu/abs/2001ApJ...557..389U/abstract). Hopefully, if everything goes as planned, you will be able to run this code yourself on your personal computers during this hands-on session. 
+
+Over the next few days, I will be sharing instructions on how to compile this code on your personal computers (in macOS/Linux only!) but before that I would like you to install Python and other necessary packages as detailed below. 
