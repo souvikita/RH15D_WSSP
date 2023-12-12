@@ -59,4 +59,4 @@ and so on
 ```
 to check if everything is loaded. If so, you are done with setting up the Python part.
 ## Install and compiling RH1.5D
-The following steps have been tested for macOS Intel and Apple Silicon M1 processors and Linux (Ubuntu) distribution. These may not work on Windows. If you are using Windows (why?), you can try to install Linux on your machine by using the steps outlined in [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) and then try to follow the Linux steps.
+The following steps have been tested for macOS Intel and Apple Silicon M1 processors and Linux (Ubuntu) distribution. _These may not work on **Windows**_. If you are using Windows (why?), you can try to install Linux on your machine by using the steps outlined in [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) and then try to follow the Linux steps.
