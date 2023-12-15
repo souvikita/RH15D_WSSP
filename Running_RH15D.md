@@ -6,7 +6,7 @@ The RH 1.5D distribution you obtained from Github does not contain all the files
 
 This will place all files in their correct directories.
 
-# Quickstart: Understanding the RH1.5D code and exploring its output
+# Quickstart: Running RH1.5D and exploring its output
 
 You should run your code inside the `run` directory. Now, there lies a `rh/rh15d/run_example` directory. Simply copy this directory to `run` on your own so that you can make changes:
 
@@ -30,3 +30,5 @@ Process    0: *** END output
 *** RH finished gracefully.
 ```
 The last two lines above tell you about the summary of the run. Note that there are two other binaries `rh15d_ray_pool` and `rh15d_lteray`. **Can you check what happens if you run them instead of `../rh15d_ray`? What happens if you run `../h15d_ray_pool` without using `mpiexec` or `mpirun`?**
+
+## Check the notebook named `Explore_RH_output_input.ipynb` for visualization purposes.
