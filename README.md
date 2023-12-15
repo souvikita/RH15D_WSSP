@@ -83,3 +83,12 @@ If everything goes well (FINGERS CROSSED!), the first `make -j8` if successful s
 ### For Linux users
 
 The steps are very similar to those in the MacOS case. Your machine could have gcc and gfortran compilers installed. If not, you can use `sudo apt-get install gcc` followed by `sudo apt-get install gfortran`. Check their versions by `gcc -v` and `gfortran -v`. Installing HDF5 parallel can be a bit tricky here. There are a variety of ways to do this. The safest bet is to download HDF5 from [source](https://www.hdfgroup.org/downloads/hdf5/source-code/) and follow the instructions similar to what is mentioned [here](https://forum.hdfgroup.org/t/installing-hdf5-ready-version-of-open-mpi/4998). But this is perhaps a bit complex and people with little familiarity with developing packages in Unix might find it non-trivial. The easier way (which I follow :) is to use `conda` to download and install `hdf5-parallel` using `conda install -c clawpack hdf5-parallel`. This should install hdf5 with parallel support. Note that if you are going to do this, you should have your conda environment activated already, otherwise it may not work. Once done follow the steps above as in MacOs and change the `HDF5_DIR` to `HOME/miniconda/` or wherever you have miniconda installed. Compile!  
+
+### Installing the [Helita](https://ita-solar.github.io/helita/) python package.
+We will use the Helita python package to load, visualize, and generate model atmospheres needed for RH15D synthesis. You need to go to your home directory under your active conda environment and:
+```
+git clone https://github.com/ITA-solar/helita.git
+cd helita
+python setup.py install
+```
+You will need the C and Fortran compilers to setup helita. Seee above.
