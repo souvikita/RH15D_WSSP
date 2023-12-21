@@ -91,6 +91,6 @@ git clone https://github.com/ITA-solar/helita.git
 cd helita
 python setup.py install
 ```
-You will need the C and Fortran compilers to setup helita. Seee above.
+You will need the C and Fortran compilers to setup helita. See above.
 
 If you encounter problems in the above installation, you can contact me at bose@lmsal.com But be aware that there is no guarantee that the compilation issues can be rectified for all OS due to the issues with different versions of hdf5-mpi and  and openmpi.
