@@ -2,7 +2,7 @@
 
 The RH 1.5D distribution you obtained from Github does not contain all the files necessary for this tutorial. Please download an [additional archive](https://github.com/souvikita/RH15D_WSSP/blob/main/rh_wssp.tar.bz2) and put it inside the RH main folder. Unpack the archive as follows:
 
-`tar jxvf rh_ast5210.tar.bz2`
+`tar jxvf rh_wssp.tar.bz2`
 
 This will place all files in their correct directories.
 
