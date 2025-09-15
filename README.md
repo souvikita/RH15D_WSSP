@@ -48,9 +48,9 @@ YAML stands for **yet another markup language**. You can use YAML files to list 
    ```
    conda activate rh15d_exercises
    ```
-4. And a final step would be to install `Jupyter lab`. We will need it to follow the exercise notebooks and visualize the output of RH 1.5D. To install it simply type `conda install -c conda-forge jupyterlab`
+4. And a final step would be to install `Jupyter lab`. We will need it to follow the exercise notebooks and visualize the output of RH 1.5D. To install it, simply type `conda install -c conda-forge jupyterlab`
 
-Once you have followed all the above steps and have everything installed you can check them by typing `jupyter lab` in your terminal session and do
+Once you have followed all the above steps and have everything installed, you can check them by typing `jupyter lab` in your terminal session and do
 ```
 import numpy
 import scipy
@@ -62,10 +62,10 @@ and so on to check if everything is loaded. If so, you are done with setting up 
 The following steps have been tested for macOS Intel and Apple Silicon M1 processors and Linux (Ubuntu) distribution. _These may not work on **Windows**_. If you are using Windows (why?), you can try to install Linux on your machine by using the steps outlined in [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) and then try to follow the Linux steps. 
 ### For Mac users
 
-RH needs C and Fortran compilers with the OpenMPI and HDF5 (parallel build) libraries. If you are using a Mac and have Homebrew installed (recommended) you can simply install these compilers using `brew install ----`. The first step is to make sure you have C and Fortran compilers installed. Most UNIX machines have this installed (`gcc` and `gfortran`). Simply check if so by typing `which gcc` and `which gfortran`. If not you can simply do `sudo brew install gcc` to install both. HDF5-mpi (HDF5 parallel build) and OpenMPI can be installed together with `sudo brew install hdf5-mpi`. Once you have everything set above, you need to
+RH needs C and Fortran compilers with the OpenMPI and HDF5 (parallel build) libraries. If you are using a Mac and have Homebrew installed (recommended) you can simply install these compilers using `brew install ----`. The first step is to make sure you have C and Fortran compilers installed. Most UNIX machines have this installed (`gcc` and `gfortran`). Simply check if so by typing `which gcc` and `which gfortran`. If not, you can simply do `sudo brew install gcc` to install both. HDF5-mpi (HDF5 parallel build) and OpenMPI can be installed together with `sudo brew install hdf5-mpi`. Once you have everything set above, you need to
 
 1. Clone the RH repository.
-2. Edit the `Makefile.config`, change `CC` to `/usr/local/opt/openmpi/bin/mpicc`, `LD` to `/usr/local/opt/openmpi/bin/mpicc` and `HDF5_DIR` to `/usr/local/opt/hdf5-mpi`. Note that installing compilers (or any software for that matter) through `brew` installs them in the path `/usr/local/opt/` in your Mac.
+2. Edit the `Makefile.config`, change `CC` to `/usr/local/opt/openmpi/bin/mpicc`, `LD` to `/usr/local/opt/openmpi/bin/mpicc` and `HDF5_DIR` to `/usr/local/opt/hdf5-mpi`. Note that installing compilers (or any software for that matter) through `brew` installs them in the path `/usr/local/opt/` in your Intel Mac or `/opt/homebrew/opt/` in arm64 Macs.
 3. Compile!
 
 ```
